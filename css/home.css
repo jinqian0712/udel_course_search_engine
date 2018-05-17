@@ -1,0 +1,159 @@
+.welcome-page{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: 0;
+    min-width: 785px;
+}
+.head{
+    height: 40px;
+    width: 100%;
+}
+.introduce{
+    float: left;
+    line-height: 40px;
+    font-size: 0.9em;
+    height: 30px;
+    width: auto;
+    color: #a2a1a1;
+    padding: 0 5px;
+    font-weight: bolder;
+    cursor: default;
+}
+.u-url{
+    height: 40px;
+    width: auto;
+    float: right;
+    cursor: pointer;
+    margin: 0 30px;
+}
+.u-url>img{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    float: left;
+    cursor: pointer;
+}
+.udel{
+    width: auto;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    padding: 0 5px;
+    font-weight: bolder;
+    font-size: 0.9em;
+    color: #a2a1a1;
+    cursor: pointer;
+}
+.udel:hover{
+    color: black;
+    font-size: 1em;
+}
+.search-inp{
+    width: 100%;
+    height: 90%;
+    min-height: 720px;
+    text-align: center;
+}
+.search-inp:before{
+    content:''; 
+    display:inline-block; 
+    height: 80%; 
+    vertical-align:middle;
+}
+.logo{
+    height: auto;
+    width: auto;
+    font-size: 4em;
+    margin: 5px;
+    line-height: 90px;
+    font-weight: bolder;
+    color: #3d7097;
+    display: inline-block;
+    vertical-align: middle;
+}
+.search-logo{
+    height: auto;
+    width: auto;
+    cursor: default;
+}
+.search-logo>span{
+    color: #ffcb21;
+}
+.search-logo>img{
+    width: 90px;
+    height: 90px;
+}
+.inp{
+   display: inline-block;
+   vertical-align: middle;
+   width: 650px;
+   padding: 0px 10px;
+   height: 50px;
+   outline: none;
+   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+   border: none;
+   font-size: 0.3em;
+}
+.inp:hover{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.footer{
+    width: 100%;
+    height: 10%;
+    background-color: #f5f4f4;
+    text-align: center;
+}
+.name{
+    width: 100%;
+    height: auto;
+}
+.name-item{
+    float: left;
+    margin: 2px 5px;
+    color: #545454;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+.name-item:hover{
+    color: black;
+    font-weight: bolder;
+}
+.name-item>span{
+    color: black;
+    font-weight: bolder;
+    cursor: default;
+}
+hr{
+    margin: 0;
+    width: 99%;
+    margin: 0 auto;
+    color: #c3c1c1;
+}
+.copyright{
+    font-size: 0.7em;
+    cursor: default;
+    color: grey;
+}
+.relevence{
+    position: absolute;
+    display: none;
+    margin-top: -5px;
+    width: 650px;
+    height: auto;
+    padding: 5px 10px;
+    box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.items{
+    font-size: 0.25em;
+    line-height: 20px;
+    text-align: left;
+    margin-bottom: 5px;
+    color: black;
+    font-weight: normal;
+    cursor: pointer;
+}
+.items:hover{
+    background-color: #ececec;
+}

